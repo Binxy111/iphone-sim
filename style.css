@@ -47,7 +47,7 @@ a {
 	border: 10px solid #000000;
 	/* background-color: #736d98; */
 	/* background: linear-gradient(180deg, rgba(115,109,152,1) 0%, rgba(33,42,84,1) 100%);  */
-	background-image: url("Images/Backgrounds/lockscreen.jpeg");
+	background-image: url("https://pngimg.com/d/iphone_PNG5729.png");
   background-position: center;
   background-repeat: no-repeat; 
   background-size: cover; 
@@ -59,7 +59,7 @@ a {
 
 /* .black {
 	background-color: #000;
-	background-image: none;
+	background-image: ;
 	cursor: pointer;
   transition: visibility 300ms linear 300ms, opacity 300ms;
 
