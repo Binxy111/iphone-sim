@@ -27,6 +27,8 @@ body, html {
         background-image: url("https://pngimg.com/d/iphone_PNG5729.png");
 	background-size: cover; 
         background-position: center;
+	width: 390px;
+	height: 844px;
 }
 
 a {
