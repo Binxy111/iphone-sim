@@ -7,7 +7,40 @@
     <link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-		
+		 <link rel="stylesheet" href="iphone.css" />
+ <script>
+  function start(){
+	  var a = document.getElementById('screen').style.backgroundColor;
+	  if (a == 'white'){
+		  document.getElementById('screen').style.backgroundColor = 'black';
+		  document.getElementById('screenshadow').style.display = 'block';
+	  } else{
+	  document.getElementById('screen').style.backgroundColor = 'white';
+	  document.getElementById('screenshadow').style.display = 'none';
+	  }
+  }
+ </script>
+
+ <div id="z-index-container" draggable="false">
+  <div class="big-base"><!-- Корпус -->
+	<div class="glass"></div><!-- Стекло -->
+    <div id="screenshadow"></div><!-- Блик стекла -->
+  </div>
+  <div class="volume-up"></div><!-- Звук+ -->
+  <div class="volume-down"></div><!-- Звук- -->
+  <div class="volume-onoff"></div><!-- Звук вкл/выкл -->
+  <div class="power-button"></div><!-- Кнопка включения -->
+  <div class="home-button" onclick="start()"><!-- Кнопка Домой -->
+   <div class="home-button-gr"></div><!-- Гравировка на кнопке -->
+  </div>
+  <div class="iSight">
+	  <div class="inisight"></div><!-- Глазок -->
+  </div><!-- Камера -->
+  <div class="speaker"><!-- Динамик -->
+	  <div class="speaker-border"></div><!-- Граница вокруг динамика-->
+  </div> 
+  <div id="screen" iframe="home.html"></div><!-- Экран -->
+ </div>
 		<div class="main">
 			<div class="side left">
 				<div class="dash left top"></div>
